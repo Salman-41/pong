@@ -76,7 +76,7 @@ function renderCanvas() {
   context.fillStyle = "white";
   context.fill();
 
-  // Score canvas
+  // Score
   context.font = "32px Courier New";
   context.fillText(playerScore, 20, canvas.height / 2 + 50);
   context.fillText(computerScore, 20, canvas.height / 2 - 30);
