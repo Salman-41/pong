@@ -70,7 +70,7 @@ function renderCanvas() {
   context.strokeStyle = "grey";
   context.stroke();
 
-  // Ball canvas
+  // Ball
   context.beginPath();
   context.arc(ballX, ballY, ballRadius, 2 * Math.PI, false);
   context.fillStyle = "white";
